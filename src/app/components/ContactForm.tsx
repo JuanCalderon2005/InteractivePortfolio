@@ -39,7 +39,7 @@ const ContactForm: React.FC = () => {
             templateParams,
             'z2TiL3K_2XMh7twbS'
         )
-            .then((response) => {
+            .then(() => {
                 setIsSubmitting(false)
                 setIsSuccess(true)
                 setFormData({
@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
                     message: '',
                 })
             })
-            .catch((err) => {
+            .catch(() => {
                 setError('Something went wrong, please try again.')
                 setIsSubmitting(false)
             })

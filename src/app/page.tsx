@@ -1,9 +1,13 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
       <section className="h-screen flex flex-col items-center justify-center  md:flex-row  text-center md:text-left pt-20 md:pt-28 px-4 z-10">
         <div className="mb-8 md:mb-0 md:mr-8">
-          <img
+          <Image
+            width={256}
+            height={256}
             src="/images/profile.png"
             alt="Juan Calderon"
             className="md:w-64 md:h-64 object-cover rounded-full shadow-2xl transition-transform transform hover:scale-110 duration-300"

@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { projects } from '../../../data'
+import Image from 'next/image'
 
 const ProjectCard = () => {
   return (
@@ -13,7 +14,9 @@ const ProjectCard = () => {
             key={project.id}
             className="flex flex-col items-center justify-between w-full h-full p-6 rounded-lg bg-white shadow-lg hover:shadow-2xl transition-shadow duration-200"
           >
-            <img
+            <Image
+              width={300}
+              height={200}
               src={project.image}
               alt={project.title}
               className="w-full h-48 object-cover rounded-md"
