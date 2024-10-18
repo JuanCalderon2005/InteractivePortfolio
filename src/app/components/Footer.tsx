@@ -4,10 +4,10 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 
 export const Footer = () => {
   return (
-    <footer className="w-full py-4 bg-white/30 backdrop-blur-sm text-gray-600 shadow-lg">
-      <div className="max-w-6xl mx-auto flex justify-between items-center px-4">
+    <footer className="w-full py-4 mt-20 bg-white/30 backdrop-blur-sm text-gray-600 shadow-lg">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4">
 
-        <div className="flex space-x-4">
+        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
           <a
             href="https://github.com/JuanCalderon2005"
             target="_blank"
@@ -28,7 +28,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="flex space-x-4">
+        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
           <Link href="/contact" className="flex items-center space-x-2 hover:text-indigo-500">
             <Mail size={20} />
             <span>Contact Me</span>

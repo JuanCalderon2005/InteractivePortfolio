@@ -55,7 +55,7 @@ const ContactForm: React.FC = () => {
     }
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
+        <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
             <div className="max-w-lg w-full bg-white rounded-lg shadow-lg p-8">
                 <h2 className="text-2xl font-bold mb-6 text-center text-indigo-500">Contact Me</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">

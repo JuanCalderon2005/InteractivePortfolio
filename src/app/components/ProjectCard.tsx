@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const ProjectCard = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 py-8">
       <h1 className="text-3xl font-bold mb-8 text-indigo-600">My Projects</h1>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
