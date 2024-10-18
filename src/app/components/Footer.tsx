@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="w-full py-4 bg-white/30 backdrop-blur-sm text-gray-600 shadow-lg">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-4">
-        {/* Enlaces a redes sociales */}
+
         <div className="flex space-x-4">
           <a
             href="https://github.com/JuanCalderon2005"
@@ -18,7 +18,7 @@ export const Footer = () => {
             <span>GitHub</span>
           </a>
           <a
-            href="https://linkedin.com/in/juan-calderon"
+            href="https://linkedin.com/in/juan-esteban-calderon-nuñez-334b53323"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 hover:text-indigo-500"
@@ -28,7 +28,6 @@ export const Footer = () => {
           </a>
         </div>
 
-        {/* Enlace a la página de Contact Me */}
         <div className="flex space-x-4">
           <Link href="/contact" className="flex items-center space-x-2 hover:text-indigo-500">
             <Mail size={20} />

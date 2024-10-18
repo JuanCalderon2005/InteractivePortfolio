@@ -79,7 +79,7 @@ import {
 
 export default function AboutMe() {
   return (
-    <div className='flex flex-col gap-10 px-4 md:px-8 lg:px-16'>
+    <div className='flex flex-col gap-10 px-4 md:px-8 lg:px-16 md:mt-12'>
       <section className="text-center pt-10">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
           About Me
