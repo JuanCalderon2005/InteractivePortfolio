@@ -1,32 +1,32 @@
-import { CodeSquare,Contact, HomeIcon, UserRound, Briefcase, GitBranch } from "lucide-react";
-
+import { CodeSquare, Contact, HomeIcon, UserRound, Briefcase, GitBranch } from "lucide-react";
 
 export const itemsNavbar = [
     {
         id: 1,
         title: "Home",
-        icon: <HomeIcon size={25} color="black" strokeWidth={1} />,
+        icon: <HomeIcon size={25} className="text-gray-800 dark:text-white" />, // Cambia el color según el tema
         link: "/",
     },
     {
         id: 2,
         title: "About Me",
-        icon: <UserRound size={25} color="black" strokeWidth={1} />,
+        icon: <UserRound size={25} className="text-gray-800 dark:text-white" />, // Cambia el color según el tema
         link: "/about-me",
     },
     {
         id: 3,
         title: "Projects",
-        icon: <Briefcase size={25} color="black" strokeWidth={1} />,
+        icon: <Briefcase size={25} className="text-gray-800 dark:text-white" />, // Cambia el color según el tema
         link: "/projects",
     },
     {
         id: 4,
         title: "Contact",
-        icon: <Contact size={25} color="black" strokeWidth={1} />,
+        icon: <Contact size={25} className="text-gray-800 dark:text-white" />, // Cambia el color según el tema
         link: "/contact",
     },
 ];
+
 
 export const projects = [
     {
